@@ -26,24 +26,24 @@
 
 
 
-.fl { float: left;  _display: inline; }
-.fr { float: right; _display: inline; }
-.fn { float: none; }
+.fl { float: left;  _display: inline!important; }
+.fr { float: right; _display: inline!important; }
+.fn { float: none!important; }
 
 @media (--breakpoint-not-small) {
-  .fl-ns { float: left; _display: inline; }
-  .fr-ns { float: right; _display: inline; }
-  .fn-ns { float: none; }
+  .fl-ns { float: left; _display: inline!important; }
+  .fr-ns { float: right; _display: inline!important; }
+  .fn-ns { float: none!important; }
 }
 
 @media (--breakpoint-medium) {
-  .fl-m { float: left; _display: inline; }
-  .fr-m { float: right; _display: inline; }
-  .fn-m { float: none; }
+  .fl-m { float: left; _display: inline!important; }
+  .fr-m { float: right; _display: inline!important; }
+  .fn-m { float: none!important; }
 }
 
 @media (--breakpoint-large) {
-  .fl-l { float: left; _display: inline; }
-  .fr-l { float: right; _display: inline; }
-  .fn-l { float: none; }
+  .fl-l { float: left; _display: inline!important; }
+  .fr-l { float: right; _display: inline!important; }
+  .fn-l { float: none!important; }
 }

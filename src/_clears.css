@@ -9,32 +9,32 @@
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .cf:before,
-.cf:after { content: " "; display: table; }
-.cf:after { clear: both; }
-.cf {       *zoom: 1; }
+.cf:after { content: " "; display: table!important; }
+.cf:after { clear: both!important; }
+.cf {       *zoom: 1!important; }
 
-.cl { clear: left; }
-.cr { clear: right; }
-.cb { clear: both; }
-.cn { clear: none; }
+.cl { clear: left!important; }
+.cr { clear: right!important; }
+.cb { clear: both!important; }
+.cn { clear: none!important; }
 
 @media (--breakpoint-not-small) {
-  .cl-ns { clear: left; }
-  .cr-ns { clear: right; }
-  .cb-ns { clear: both; }
-  .cn-ns { clear: none; }
+  .cl-ns { clear: left!important; }
+  .cr-ns { clear: right!important; }
+  .cb-ns { clear: both!important; }
+  .cn-ns { clear: none!important; }
 }
 
 @media (--breakpoint-medium) {
-  .cl-m { clear: left; }
-  .cr-m { clear: right; }
-  .cb-m { clear: both; }
-  .cn-m { clear: none; }
+  .cl-m { clear: left!important; }
+  .cr-m { clear: right!important; }
+  .cb-m { clear: both!important; }
+  .cn-m { clear: none!important; }
 }
 
 @media (--breakpoint-large) {
-  .cl-l { clear: left; }
-  .cr-l { clear: right; }
-  .cb-l { clear: both; }
-  .cn-l { clear: none; }
+  .cl-l { clear: left!important; }
+  .cr-l { clear: right!important; }
+  .cb-l { clear: both!important; }
+  .cn-l { clear: none!important; }
 }

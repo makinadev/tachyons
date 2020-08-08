@@ -11,40 +11,40 @@
 
 /* Equivalent to .overflow-y-scroll */
 .overflow-container {
-  overflow-y: scroll;
+  overflow-y: scroll!important;
 }
 
-.center {
-  margin-right: auto;
-  margin-left: auto;
+.cntr {
+  margin-right: auto!important;
+  margin-left: auto!important;
 }
 
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left:  auto; }
+.mr-auto { margin-right: auto!important; }
+.ml-auto { margin-left:  auto!important; }
 
 @media (--breakpoint-not-small){
   .center-ns {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto!important;
+    margin-left: auto!important;
   }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
+  .mr-auto-ns { margin-right: auto!important; }
+  .ml-auto-ns { margin-left:  auto!important; }
 }
 
 @media (--breakpoint-medium){
   .center-m {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto!important;
+    margin-left: auto!important;
   }
-  .mr-auto-m { margin-right: auto; }
-  .ml-auto-m { margin-left:  auto; }
+  .mr-auto-m { margin-right: auto!important; }
+  .ml-auto-m { margin-left:  auto!important; }
 }
 
 @media (--breakpoint-large){
   .center-l {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto!important;
+    margin-left: auto!important;
   }
-  .mr-auto-l { margin-right: auto; }
-  .ml-auto-l { margin-left:  auto; }
+  .mr-auto-l { margin-right: auto!important; }
+  .ml-auto-l { margin-left:  auto!important; }
 }

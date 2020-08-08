@@ -18,16 +18,16 @@
 .clip {
   position: fixed !important;
   _position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px 1px 1px 1px)!important; /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px)!important;
 }
 
 @media (--breakpoint-not-small) {
   .clip-ns {
     position: fixed !important;
     _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px 1px 1px 1px)!important; /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px)!important;
   }
 }
 
@@ -35,8 +35,8 @@
   .clip-m {
     position: fixed !important;
     _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px 1px 1px 1px)!important; /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px)!important;
   }
 }
 
@@ -44,8 +44,8 @@
   .clip-l {
     position: fixed !important;
     _position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px 1px 1px 1px)!important; /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px)!important;
   }
 }
 

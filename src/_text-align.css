@@ -19,29 +19,29 @@
 
 */
 
-.tl  { text-align: left; }
-.tr  { text-align: right; }
-.tc  { text-align: center; }
-.tj  { text-align: justify; }
+.tl  { text-align: left!important; }
+.tr  { text-align: right!important; }
+.tc  { text-align: center!important; }
+.tj  { text-align: justify!important; }
 
 @media (--breakpoint-not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-  .tj-ns  { text-align: justify; }
+  .tl-ns  { text-align: left!important; }
+  .tr-ns  { text-align: right!important; }
+  .tc-ns  { text-align: center!important; }
+  .tj-ns  { text-align: justify!important; }
 }
 
 @media (--breakpoint-medium) {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
-  .tj-m  { text-align: justify; }
+  .tl-m  { text-align: left!important; }
+  .tr-m  { text-align: right!important; }
+  .tc-m  { text-align: center!important; }
+  .tj-m  { text-align: justify!important; }
 }
 
 @media (--breakpoint-large) {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
-  .tj-l  { text-align: justify; }
+  .tl-l  { text-align: left!important; }
+  .tr-l  { text-align: right!important; }
+  .tc-l  { text-align: center!important; }
+  .tj-l  { text-align: justify!important; }
 }
 
