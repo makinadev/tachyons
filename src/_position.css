@@ -10,28 +10,28 @@
 
 */
 
-.static { position: static; }
-.relative  { position: relative; }
-.absolute  { position: absolute; }
-.fixed  { position: fixed; }
+.static { position: static!important; }
+.relative  { position: relative!important; }
+.absolute  { position: absolute!important; }
+.fixed  { position: fixed!important; }
 
 @media (--breakpoint-not-small) {
-  .static-ns { position: static; }
-  .relative-ns  { position: relative; }
-  .absolute-ns  { position: absolute; }
-  .fixed-ns  { position: fixed; }
+  .static-ns { position: static!important; }
+  .relative-ns  { position: relative!important; }
+  .absolute-ns  { position: absolute!important; }
+  .fixed-ns  { position: fixed!important; }
 }
 
 @media (--breakpoint-medium) {
-  .static-m { position: static; }
-  .relative-m  { position: relative; }
-  .absolute-m  { position: absolute; }
-  .fixed-m  { position: fixed; }
+  .static-m { position: static!important; }
+  .relative-m  { position: relative!important; }
+  .absolute-m  { position: absolute!important; }
+  .fixed-m  { position: fixed!important; }
 }
 
 @media (--breakpoint-large) {
-  .static-l { position: static; }
-  .relative-l  { position: relative; }
-  .absolute-l  { position: absolute; }
-  .fixed-l  { position: fixed; }
+  .static-l { position: static!important; }
+  .relative-l  { position: relative!important; }
+  .absolute-l  { position: absolute!important; }
+  .fixed-l  { position: fixed!important; }
 }
