@@ -95,19 +95,6 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .bg-left { background-repeat: no-repeat !important; background-position: center left !important; }
 /*
 
-   OUTLINES
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
-.outline { outline: 1px solid !important; }
-.outline-transparent { outline: 1px solid transparent !important; }
-.outline-0 { outline: 0 !important; }
-/*
-
     BORDERS
     Docs: http://tachyons.io/docs/themes/borders/
 
